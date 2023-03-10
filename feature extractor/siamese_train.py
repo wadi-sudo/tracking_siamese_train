@@ -37,7 +37,7 @@ transforms = torchvision.transforms.Compose([
 	torchvision.transforms.Resize((128,128)),
 	torchvision.transforms.ColorJitter(hue=.05, saturation=.05),
 	torchvision.transforms.RandomHorizontalFlip(),
-	torchvision.transforms.RandomRotation(20, resample=PIL.Image.BILINEAR),
+	#torchvision.transforms.RandomRotation(20, resample=PIL.Image.BILINEAR),
 	torchvision.transforms.ToTensor()
 	])
 
